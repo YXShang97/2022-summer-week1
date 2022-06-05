@@ -1,0 +1,40 @@
+
+.text-blue {
+    color: #335eea;
+}
+.text-grey {
+    color: #506690;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0 60px;
+    background-color: #f1f4f8;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 58px;
+    letter-spacing: -0.96px;
+}
+
+.individual-property {
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.property-value {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.property-description {
+    margin: 0;
+}
+

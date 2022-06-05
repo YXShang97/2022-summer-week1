@@ -1,0 +1,48 @@
+.text-blue {
+    color: #335eea;
+}
+.text-grey {
+    color: #869ab8;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 34px;
+    margin: 0px 60px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.96px;
+}
+
+button {    
+    height: 60px;
+    display: inline-block;
+    border-style: none;
+    border-radius: 8px;
+    background-color: rgba(51,94,234,.1);
+    color: #335eea;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.button-blue {
+    width: 180px;
+    background-color: #335eea;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+}
+
+.img-in-button {
+    padding-left: 5px;
+}
+
+

@@ -1,0 +1,65 @@
+.text-white {
+    color: white;
+}
+body {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.porsche-911 {
+    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-911/small/3cf76e8c-6694-11e9-80c4-005056bbdc38;sP;twebp065;c1693;gc/porsche-small.webp");
+    background-repeat: no-repeat;
+    height: 434.109px;
+    width: 550px;
+    background-size: contain;
+    padding: 20px 40px;
+}
+
+.model {
+    font-size:38px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 0px;
+    
+}
+
+.price {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 6px;
+}
+
+.buttons {
+    height: 50px;
+    margin-top: 280px;
+}
+
+.button-white {
+    display: inline-flex;
+    background-color: #fff;
+    border: 1px solid white;
+    width: 185px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.button-transparent {
+    display: inline-flex;
+    width: 130px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.icon-in-button {
+    display: inline-flex;
+    height: 20px;
+    padding: 15px 10px 15px 15px;
+}
+
+.text-in-button {
+    display: inline-flex;
+    text-decoration: none;
+    letter-spacing: -0.96px;
+    align-items: center;
+    color: black;
+}
