@@ -1,26 +1,18 @@
-.text-white {
-    color: white;
-}
-body {
+.container {
+    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-911/small/3cf76e8c-6694-11e9-80c4-005056bbdc38;sP;twebp065;c1693;gc/porsche-small.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 440px;
+    padding: 20px 40px;
     color: #fff;
     font-family: 'Rubik', sans-serif;
 }
 
-.porsche-911 {
-    background-image: url("https://files.porsche.com/filestore/image/multimedia/none/carrange-flyout-911/small/3cf76e8c-6694-11e9-80c4-005056bbdc38;sP;twebp065;c1693;gc/porsche-small.webp");
-    background-repeat: no-repeat;
-    height: 434.109px;
-    width: 550px;
-    background-size: contain;
-    padding: 20px 40px;
-}
-
-.model {
+.model-name {
     font-size:38px;
     font-weight: 900;
     letter-spacing: 2px;
     margin: 0px;
-    
 }
 
 .price {
@@ -29,37 +21,38 @@ body {
     margin-top: 6px;
 }
 
-.buttons {
-    height: 50px;
+.button-container {
     margin-top: 280px;
 }
 
-.button-white {
+.build-button {
     display: inline-flex;
     background-color: #fff;
     border: 1px solid white;
-    width: 185px;
-    height: 50px;
     margin-right: 8px;
+    padding-right: 20px;
 }
 
-.button-transparent {
+.models-button {
     display: inline-flex;
-    width: 130px;
-    height: 50px;
     border: 1px solid white;
+    padding-right: 20px;
 }
 
-.icon-in-button {
-    display: inline-flex;
+.img-in-button {
     height: 20px;
-    padding: 15px 10px 15px 15px;
+    padding: 15px;
+    padding-right: 8px;
 }
 
 .text-in-button {
     display: inline-flex;
+    align-items: center;
     text-decoration: none;
     letter-spacing: -0.96px;
-    align-items: center;
     color: black;
+}
+
+.models-button-text {
+    color: white;
 }

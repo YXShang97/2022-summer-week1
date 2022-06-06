@@ -1,45 +1,40 @@
-
-.text-blue {
-    color: #335eea;
-}
-.text-grey {
-    color: #869ab8;
-}
-
-body {
+.container {
+    width: 540px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 36px;
     margin: 0 60px;
 }
 
+.highlight-text {
+    color: #335eea;
+}
+.plain-text {
+    color: #869ab8;
+}
+
 h1 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 34px;
     line-height: 58px;
     letter-spacing: -0.96px;
 }
 
-.point {
-    height: 115px;
-    width: 700px;
-}
-
-.icon-description {
+.feature-description {
     display: inline-block;
     height: 115px;
     width: 450px;
     margin-left: 20px;
 }
 
-.icon-heading {
+.feature-header {
     display: inline-block;
     font-weight: 400;
     font-size: 18px;
     margin: 0;
 }
 
-.icon-text {
+.feature-text {
     margin: 0;
     font-size: 18px;
 }
